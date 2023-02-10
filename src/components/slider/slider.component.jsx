@@ -26,6 +26,7 @@ const handleAfterChange = (event, newValue) => {
         value={value}
         onAfterChange={handleAfterChange}
       />
+      <p>{value}</p>
       </div>
     </Fragment>
   );
